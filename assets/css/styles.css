@@ -565,12 +565,24 @@ iframe {
     margin-bottom: 15px;
   }
 }
-/* Small devices (tablets, 768px and up) */
-/* Medium devices (desktops, 992px and up) */
-/* Large devices (large desktops, 1200px and up) */
-/* Ex-Large devices (large desktops, 1200px and up) */
+
 @media (min-width: 1400px) {
   .container {
     width: 1360px;
+  }
+}
+
+img {
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%; 
+  object-fit: cover;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+      width: 120px;
+      height: 120px;
   }
 }

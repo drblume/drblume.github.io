@@ -38,13 +38,13 @@ abbr {
 }
 
 ul {
-    list-style: none; /* Remove default bullets */
-    padding-left: 20px; /* Indent the list for alignment */
+    list-style: none; 
+    padding-left: 20px; 
 }
 
 ul li {
-    background: url('pie_bullet.png') no-repeat left center; /* Use the custom bullet */
-    background-size: 16px 16px; /* Adjust bullet size */
-    padding-left: 25px; /* Space for the bullet */
-    margin-bottom: 5px; /* Add spacing between items */
+    background: url('pie_bullet.png') no-repeat left center; 
+    background-size: 16px 16px; 
+    padding-left: 25px; 
+    margin-bottom: 5px; 
 }
