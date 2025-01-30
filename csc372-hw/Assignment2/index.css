@@ -1,4 +1,3 @@
-/* Cool Background with Gradient */
 body {
     background: linear-gradient(135deg, #2C3E50, #4CA1AF);
     color: #ECECEC;
@@ -9,7 +8,6 @@ body {
     text-align: center;
 }
 
-/* Header */
 header {
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
@@ -24,7 +22,6 @@ h1 {
     text-transform: uppercase;
 }
 
-/* Main Content Sections */
 main {
     width: 80%;
     margin: 30px auto;
