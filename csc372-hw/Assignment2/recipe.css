@@ -1,0 +1,50 @@
+body {
+    background: white url('silverware.jpg') repeat fixed;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+}
+
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    border-bottom: 2px solid #A4A400;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+blockquote {
+    background: #FFFFA8;
+    padding: 10px;
+    font-style: italic;
+}
+
+ul {
+    list-style-image: url('pie-icon.gif');
+}
+
+abbr {
+    text-decoration: underline;
+    cursor: help;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+    padding-left: 20px; /* Indent the list for alignment */
+}
+
+ul li {
+    background: url('pie_bullet.png') no-repeat left center; /* Use the custom bullet */
+    background-size: 16px 16px; /* Adjust bullet size */
+    padding-left: 25px; /* Space for the bullet */
+    margin-bottom: 5px; /* Add spacing between items */
+}
