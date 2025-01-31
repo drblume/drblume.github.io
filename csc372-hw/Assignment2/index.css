@@ -1,3 +1,13 @@
+/*
+  Name: Dalton Blume
+  Date: 01.30.2025
+  CSC 372-01
+
+  This is the index.css file for the Assignment 2. It contains the global styles for the homepage
+  of the recipe website.
+/*
+
+/* Global Style for the homepage. */
 body {
     background: linear-gradient(135deg, #2C3E50, #4CA1AF);
     color: #ECECEC;
@@ -8,6 +18,7 @@ body {
     text-align: center;
 }
 
+/* Header Style */
 header {
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
@@ -15,6 +26,7 @@ header {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Main title style */
 h1 {
     font-size: 28pt;
     font-weight: bold;
@@ -22,6 +34,7 @@ h1 {
     text-transform: uppercase;
 }
 
+/* Main content container*/
 main {
     width: 80%;
     margin: 30px auto;
