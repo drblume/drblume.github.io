@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: #1c0c3e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.dishes img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.selected {
+    width: 200px;
+}
+
+#dish-list li {
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #d5d5d5;
+    border-radius: 5px;
+}
+
+#dish-list li:hover {
+    color: white;
+    background-color: #d5d5d5;
+    text-decoration: none;
+}
+
+/* Meal Plan Page Styles */
+.mealplan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background: #5a16ec;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(122, 31, 31, 0.1);
+}
+
+#menu {
+    flex: 1;
+    min-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#meal-plan {
+    flex: 1;
+    min-width: 40%;
+    border-left: 2px solid #efeff4;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #d5d5d5;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+
+

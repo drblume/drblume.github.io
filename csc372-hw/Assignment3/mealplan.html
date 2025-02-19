@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+  Name: Dalton Blume
+  Date: 02.18.2025
+  CSC 372-01
+
+  This is the mealplan.html page for my assignment 3. It allows the user to select dishes from a list of available dishes that I 
+  have suggested and add them to their meal plan. The user can then see the total price of their meal plan and the dishes that they
+  have selected. The user can also remove food from their meal plan if they need to. 
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Plan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>UNCG Dining</h1>
+        <a href="index.html">Back to Main Page</a>
+    </header>
+    <main class="mealplan-container">
+        <section id="menu">
+            <h2>Available Dishes</h2>
+            <ul id="dish-list">
+                <li onclick="addToMealPlan('Burger', 12.99)">Burger - $12.99</li>
+                <li onclick="addToMealPlan('Wings', 10.99)">Wings - $10.99</li>
+                <li onclick="addToMealPlan('Wedges', 2.99)">Wedges - $4.99</li>
+                <li onclick="addToMealPlan('Supremes', 7.99)">Supremes - $7.99</li>
+                <li onclick="addToMealPlan('Biscuit', 5.99)">Biscuit - $5.99</li>
+                <li onclick="addToMealPlan('Rice', 3.99)">Rice - $3.99</li>
+                <li onclick="addToMealPlan('Sandwich', 6.99)">Sandwich - $6.99</li>
+                <li onclick="addToMealPlan('Fry', 3.99)">Fry - $3.99</li>
+                <li onclick="addToMealPlan('Milkshake', 4.99)">Milkshake - $4.99</li>
+            </ul>
+        </section>
+        
+        <section id="meal-plan">
+            <h2>Your Meal Plan</h2>
+            <ul id="selected-meals"></ul>
+            <p>Total: $<span id="total-price">0.00</span></p>
+        </section>
+    </main>
+</body>
+</html>
