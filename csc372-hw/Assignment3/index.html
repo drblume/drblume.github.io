@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+  Name: Dalton Blume
+  Date: 02.18.2025
+  CSC 372-01
+
+  This is the index.html page for my assignment 3. It gives three restaurant suggestions for students in the area and
+  three images for each of those restaurants of food that I suggest they try from there. When the images are clicked on,
+  they will increase in size and give a brief description of the food item. I also gave a brief description of the restraurant
+    and their hours of operation.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>UNCG Dining</h1>
+        <a href="mealplan.html">Make a Meal Plan</a>
+    </header>
+    <main>
+        <section id="intro">
+            <p>As college students, we've all been in that situation of just getting out of class and wondering where
+                you should go to stop and get a bite to eat before your next class. Well, look no further! UNCG Dining will help
+                you find just what you are looking for. Whether you are looking for a nice place to sit down and get a meal with
+                friends or just grabbing a quick bite to eat before your next class, we have you covered. Here you will be 
+                able to find places to eat within walking distance and the places that suit your dietary needs. So, have a look
+                at what we have to offer. I know you will find just what you are looking for.
+            </p>
+        </section>
+
+        <section id="recommendations">
+            <article class="restaurant">
+                <h2>Buffalo Wild Wings</h2>
+                <p>Buffalo Wild Wings is located in the Elliot University Center (EUC) food court. Their specialties include
+                    wings, burgers, and wraps! They are open from 10:30am to 6:00pm every Monday-Thursday and 10:30am to 3:00pm on Friday.
+                    And they are also closed on the weekends.
+                </p>
+                <div class="dishes">
+                    <img src="images/BBQburger.jpg" alt="Burger" onclick="selectDish('Burger')"> <!--https://butteryourbiscuit.com/wp-content/uploads/2024/01/copycat-buffalo-wild-wings-garlic-parmesan-wings-4.jpg-->
+                    <img src="images/garlicparm.jpg" alt="Wings" onclick="selectDish('Wings')"> <!--https://images.ctfassets.net/l5fkpck1mwg3/1FFhPMR54o70HjpCGEXOsC/9094fdaf47ab622a960e2fd715418f9d/DEL2022-648014_BBQBaconBurger_Silo_4000x3000.png-->
+                    <img src="images/potatowedges.jpg" alt="Wedges" onclick="selectDish('Wedges')"> <!--https://images.ctfassets.net/l5fkpck1mwg3/6LaMpmYOzXcPVqACwCZmO3/680461e95ccc56ef71eecd05991cb936/DEL2022-601347-Appetizers_Potato-Wedges_53_4000x3000.png-->
+                </div>
+                <div id="dish-description"></div>
+            </article>
+        </section>
+
+        <section id="recommendations">
+            <article class="restaurant">
+                <h2>Bojangles</h2>
+                <p>Bojangles is located at 1501 Spring Garden St right across the street from the School of Education building. 
+                    Their specialties include chicken tenders, breakfast biscuits, and sweet tea! They are open from 5:30am to 10:00pm every day of the week
+                    except on Sunday. On Sunday, they are open from 6:00am to 10:00pm.
+                </p>
+                <div class="dishes">
+                    <img src="images/supremes.jpg" alt="Supremes" onclick="selectDish('Supremes')"> 
+                    <img src="images/chickenbiscuit.jpg" alt="Biscuit" onclick="selectDish('Biscuit')"> <!--https://images.portcitydaily.com/wp-content/uploads/2019/05/bojangles.jpg-->
+                    <img src="images/rice.jpg" alt="Rice" onclick="selectDish('Rice')"> <!--https://olo-images-live.imgix.net/3d/3d1c4beeea754450b45390de3cce87b5.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=1d23be3de5eadcebd06f6049ede7c0d0-->
+                </div>
+                <div id="dish-description"></div>
+            </article>
+        </section>
+
+        <section id="recommendations">
+            <article class="restaurant">
+                <h2>Chick-fil-a</h2>
+                <p>Chick-fil-a is also located in the EUC. However, it is located on the first floor right under the stairs. Their specialties include
+                    chicken sandwiches, waffle fries, and milkshakes! They are open from 7:30am to 10:00pm every Monday-Thursday, 7:30am to 5:00pm on Friday, 
+                    10:30am to 6:00pm on Saturdays, and of course they are closed on Sundays.
+                </p>
+                <div class="dishes">
+                    <img src="images/sandwich.jpg" alt="Sandwich" onclick="selectDish('Sandwich')"> <!--https://d1fd34dzzl09j.cloudfront.net/Images/CFACOM/Daypart%20Hero/Winter23/Winter23-DotCom-ChickenSandwich-M_375x350.jpg?la=en&h=350&w=375-->
+                    <img src="images/wafflefry.jpg" alt="Fry" onclick="selectDish('Fry')"> <!--https://d1fd34dzzl09j.cloudfront.net/Images/CFACOM/PLP%20updates/Waffle%20Fries/CFA14300_Winter24_MediumFries_PLP_Hero_D_710x580.jpg_master.jpg?la=en&h=580&w=710-->
+                    <img src="images/milkshake.jpg" alt="Milkshake" onclick="selectDish('Milkshake')"> <!--https://www.cfacdn.com/img/order/menu/Mobile/Desserts/Menu%20Item/16oz_StrawberryMilkshake-1080.png-->
+                </div>
+                <div id="dish-description"></div>
+            </article>
+        </section>
+        
+        <section id="extra-info">
+            <h2>Articles</h2>
+            <p>Chick-fil-a has won the award for best customer service! Head on over to the EUC to congratulate them. Don't 
+                forget to grab a strawberry milkshake while you're there!
+            </p>
+            <img src="images/cow.jpg" alt="Cow" width="200px" height="200px"> <!--https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8MBnVSQCeQyf4rsDjhtcA4Ncyaa_ICP8tMQ&s-->
+        </section>
+        
+        <a href="mealplan.html">Go to Meal Plan</a>
+    </main>
+</body>
+</html>

@@ -1,0 +1,67 @@
+/*
+  Name: Dalton Blume
+  Date: 01.30.2025
+  CSC 372-01
+
+  This is the recipe.css file for Assignment 2. It contains the styling for the 
+  lemon meringue pie recipe page.
+/*
+
+/* Sets the global styles for the recipe page */
+body {
+    background: white url('silverware.jpg') repeat fixed;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+}
+
+/* Styles the header */
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    border-bottom: 2px solid #A4A400;
+}
+
+/* Main Header */
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+/* Sub Header */
+h2 {
+    font-size: 18pt;
+}
+
+/* Blockquote styling for highlighted text*/
+blockquote {
+    background: #FFFFA8;
+    padding: 10px;
+    font-style: italic;
+}
+
+/* Uses the custom pie bullet image for the list */
+ul {
+    list-style-image: url('pie-icon.gif');
+}
+
+abbr {
+    text-decoration: underline;
+    cursor: help;
+}
+
+/* removes defualt list style */
+ul {
+    list-style: none; 
+    padding-left: 20px; 
+}
+
+/* adds custom bullet image */
+ul li {
+    background: url('pie_bullet.png') no-repeat left center; 
+    background-size: 16px 16px; 
+    padding-left: 25px; 
+    margin-bottom: 5px; 
+}
