@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
         return finalChoice;
     }
+    
 
     function determineWinner(player, computer) {
         if (player === computer) return "tie";
