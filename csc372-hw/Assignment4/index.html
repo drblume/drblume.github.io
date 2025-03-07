@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+  Name: Dalton Blume
+  Date: 03.18.2025
+  CSC 372-01
+
+  This is the index.html page for my assignment 4. This page will display the game Rock, Paper, Scissors. 
+  The user will be able to choose between rock, paper, and scissors. The computer will randomly choose between 
+  rock, paper, and scissors also. The computer will shuffle through the choices and then display the choice. It also
+  will keep track of the wins and losses at the bottom.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Rock, Paper, Scissors</h1>
+
+    <div id="player-choice">
+        <h2>Your Choice</h2>
+        <img src="images/rock.PNG" alt="Rock" id="rock" class="choice">
+        <img src="images/paper.PNG" alt="Paper" id="paper" class="choice">
+        <img src="images/scissors.PNG" alt="Scissors" id="scissors" class="choice">
+    </div>
+
+    <div id="computer-choice">
+        <h2>Computer's Choice</h2>
+        <img src="images/question-mark.PNG" alt="?" id="computer-img">
+    </div>
+
+    <div id="result">
+        <h2>Result</h2>
+        <p id="winner">Choose an option to start!</p>
+    </div>
+
+    <div id="score">
+        <h2>Score</h2>
+        <p>Wins: <span id="wins">0</span></p>
+        <p>Losses: <span id="losses">0</span></p>
+        <p>Ties: <span id="ties">0</span></p>
+        <button id="reset">Reset Score</button>
+    </div>
+
+</body>
+</html>

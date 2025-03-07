@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.choice {
+    width: 100px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.choice:hover {
+    border: 3px solid blue;
+}
+
+.selected {
+    border: 5px solid green;
+}
+
+#computer-img {
+    width: 100px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
