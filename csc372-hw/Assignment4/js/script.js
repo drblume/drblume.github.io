@@ -28,14 +28,14 @@ document.addEventListener("DOMContentLoaded", () => {
         let computerImg = document.getElementById("computer-img");
         let index = 0;
         let interval = setInterval(() => {
-            computerImg.src = `images/${choices[index]}.png`; 
+            computerImg.src = `images/${choices[index]}.jpg`; 
             index = (index + 1) % 3;
         }, 500);
     
         let finalChoice = choices[Math.floor(Math.random() * 3)];
         setTimeout(() => {
             clearInterval(interval);
-            computerImg.src = `images/${finalChoice}.png`; 
+            computerImg.src = `images/${finalChoice}.jpg`; 
         }, 3000);
     
         return finalChoice;
