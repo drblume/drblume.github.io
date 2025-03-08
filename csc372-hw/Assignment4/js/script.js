@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 3000); // Wait for shuffle animation to finish
     }
 
+    // The computer throw is the function below
     function shuffleComputerChoice() {
         let computerImg = document.getElementById("computer-img");
         let index = 0;
