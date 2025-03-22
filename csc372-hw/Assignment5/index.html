@@ -1,0 +1,41 @@
+<!--
+    Name: Dalton Blume
+    Date: 03.21.2025
+    CSC 372-01
+
+    This is the index.html file for the GitHub Gallery project. This file contains the HTML 
+    structure for the project. The file contains a header with the GitHub icon and the title 
+    of the project. Below the header is a search bar where the user can enter a GitHub username. 
+    The search bar contains an input field and a search button. Below the search bar is a gallery div 
+    where the user's GitHub repositories will be displayed.
+-->
+<DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Gallery</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>
+      <img src="githubIcon.png" alt="GitHub icon" class="header-icon" />
+      GitHub Gallery
+    </h1>
+
+    <div class="search-bar">
+      <input type="text" id="usernameInput" placeholder="Enter GitHub username..." />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="gallery" class="gallery">
+      <p class="default-message">Enter GitHub username in the search bar above!</p>
+    </div>
+
+  </div>
+</body>
+</html>
+
